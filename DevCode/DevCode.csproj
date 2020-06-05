@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Copyright>Copyright © 2020</Copyright>
+    <Authors>Nasr Aldin</Authors>
+    <Company>DevCode</Company>
+    <PackageTags>asp.net;asp.net mvc;.net core;domain-driven-design;ddd;architecture;boilerplate;application framework;web framework;framework;clean-architecture;best-practices</PackageTags>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <AssemblyName>DevCode</AssemblyName>
+    <PackageId>DevCode</PackageId>
+    <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
+    <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <Description>DevCode</Description>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>obj\Debug\netstandard2.0\DevCode.xml</DocumentationFile>
+  </PropertyGroup>
+
+</Project>
